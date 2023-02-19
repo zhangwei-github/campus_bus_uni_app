@@ -1,0 +1,41 @@
+
+.tui-nodata-box.data-v-494125d9 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+}
+.tui-nodata-fixed.data-v-494125d9 {
+		width: 90%;
+		position: fixed;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+}
+.tui-tips-icon.data-v-494125d9 {
+		display: block;
+		flex-shrink: 0;
+		width: 280rpx;
+		height: 280rpx;
+		margin-bottom: 40rpx;
+}
+.tui-tips-content.data-v-494125d9 {
+		text-align: center;
+		color: #666666;
+		font-size: 28rpx;
+		padding: 0 50rpx 28rpx 50rpx;
+		box-sizing: border-box;
+		word-break: break-all;
+		word-wrap: break-word;
+}
+.tui-tips-btn.data-v-494125d9 {
+		color: #fff;
+		margin: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+}
+.tui-btn__hover.data-v-494125d9{
+		opacity: 0.5;
+}
+	

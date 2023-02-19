@@ -1,0 +1,119 @@
+
+.content {
+		height: 100%;
+		width: 100%;
+ 		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+}
+.icon {
+		padding: 5rpx;
+}
+.update-button {
+		margin-top: 30rpx;
+		margin-left: 150rpx;
+		margin-right: 40rpx;
+		margin-bottom: 20rpx;
+}
+.list {
+		width: 100%;
+}
+.choose-station {
+		display: flex;
+		margin-top: 20rpx;
+		margin-left: 20rpx;
+}
+.start-button {
+		margin-top: 20rpx;
+		margin-bottom: 20rpx;
+}
+.time-list {
+		margin-top: 20rpx;
+		margin-bottom: 20rpx;
+		margin: 40rpx;
+}
+.list-cell {
+		padding: 20rpx;
+}
+.title {
+		font-size: 36rpx;
+		color: #8f8f94;
+}
+.sub-title-size {
+		width: 200rpx;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+}
+	
+	/*下拉选择*/
+.text-item {
+		text-align: center;
+}
+.tui-animation {
+		display: inline-block;
+		transform: rotate(0deg);
+		transition: all 0.2s;
+}
+.tui-animation-show {
+		transform: rotate(180deg);
+}
+.tui-selected-list {
+		background-color: #fff;
+		border-radius: 20rpx;
+		overflow: hidden;
+		transform: translateZ(0);
+}
+.tui-dropdown-scroll {
+		height: auto;
+}
+.tui-cell-class {
+		display: flex;
+		align-items: center;
+		padding: 26rpx 30rpx !important;
+}
+	
+	/* 卡片部分 */
+.card {
+		height: 260rpx;
+		border:1px solid #c8c8ce;
+		border-radius: 20rpx;
+		-webkit-box-shadow: 8rpx 8rpx #c8c8ce;
+}
+.card-flex {
+		display: flex;
+}
+.card-station {
+		margin-left: 30rpx;
+}
+.card-info {
+		margin-left: 300rpx;
+}
+.card-time-tag {
+}
+.title-outline {
+		display: grid;
+}
+.card-title {
+		margin-top: 20rpx;
+		margin-left: 10rpx;
+		margin-right: 10rpx;
+		text-align: center;
+		font-size: 40rpx;
+		font-weight: 600;
+}
+.card-sub-title {
+		margin-top: 5rpx;
+		margin-left: 20rpx;
+		margin-right: 10rpx;
+		text-align: center;
+		font-size: 30rpx;
+		font-weight: 500;
+}
+.card-icon {
+		margin: 10rpx;
+}
+.blank-bar {
+		height: 100rpx;
+}
+	

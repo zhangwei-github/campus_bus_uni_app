@@ -1,0 +1,57 @@
+
+.tui-countdown-box.data-v-7a2d6973 {
+		display: flex;
+		align-items: center;
+}
+.tui-countdown-box.data-v-7a2d6973 {
+		display: flex;
+		align-items: center;
+}
+.tui-countdown-item.data-v-7a2d6973 {
+		border: 1rpx solid;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 6rpx;
+		white-space: nowrap;
+		transform: translateZ(0);
+}
+.tui-countdown-time.data-v-7a2d6973 {
+		margin: 0;
+		padding: 0;
+}
+.tui-countdown-colon.data-v-7a2d6973 {
+		display: flex;
+		justify-content: center;
+		padding: 0 5rpx;
+}
+.tui-colon-pad.data-v-7a2d6973 {
+		padding: 0 !important;
+}
+.tui-countdown-scale.data-v-7a2d6973 {
+		transform: scale(0.9);
+		transform-origin: center center;
+}
+.tui-countdown__ms.data-v-7a2d6973 {
+		border: 1rpx solid;
+		overflow: hidden;
+		border-radius: 6rpx;
+}
+
+	/*ms使用css3代替js频繁更新操作，性能优化*/
+.tui-ms__list.data-v-7a2d6973 {
+		animation: loop-7a2d6973 1s steps(10) infinite;
+}
+@keyframes loop-7a2d6973 {
+from {
+			transform: translateY(0);
+}
+to {
+			transform: translateY(-100%);
+}
+}
+.tui-ms__item.data-v-7a2d6973 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+}

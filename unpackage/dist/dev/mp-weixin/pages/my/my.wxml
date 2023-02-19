@@ -1,0 +1,1 @@
+<view class="content"><navigation-bar title="{{123}}"/><text>这是my.vue</text><tui-tabbar wx:if="{{b}}" bindclick="{{a}}" u-i="45782e42-0" bind:__l="__l" u-p="{{b}}"></tui-tabbar></view>

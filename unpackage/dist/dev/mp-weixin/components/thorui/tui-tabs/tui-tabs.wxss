@@ -1,0 +1,82 @@
+
+.tui-tabs-view.data-v-00f3d717 {
+		width: 100%;
+		box-sizing: border-box;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+}
+.tui-tabs-relative.data-v-00f3d717 {
+		position: relative;
+}
+.tui-tabs-fixed.data-v-00f3d717 {
+		position: fixed;
+		left: 0;
+}
+.tui-tabs-fixed.data-v-00f3d717::before,
+	.tui-tabs-relative.data-v-00f3d717::before {
+		content: '';
+		position: absolute;
+		border-bottom: 1rpx solid #eaeef1;
+		transform: scaleY(0.5) translateZ(0);
+		transform-origin: 0 100%;
+		bottom: 0;
+		right: 0;
+		left: 0;
+}
+.tui-unlined.data-v-00f3d717::before {
+		border-bottom: 0 !important;
+}
+.tui-tabs-item.data-v-00f3d717 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: visible;
+}
+.tui-tabs-disabled.data-v-00f3d717 {
+		opacity: 0.6;
+}
+.tui-tabs-title.data-v-00f3d717 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		z-index: 3;
+		overflow: visible;
+}
+.tui-tabs-active.data-v-00f3d717 {
+		transition: all 0.15s ease-in-out;
+}
+.tui-tabs-slider.data-v-00f3d717 {
+		position: absolute;
+		left: 0;
+		transition: all 0.15s ease-in-out;
+		z-index: 1;
+		transform-style: preserve-3d;
+}
+.tui-tabs__badge.data-v-00f3d717 {
+		position: absolute;
+		font-size: 24rpx;
+		height: 32rpx;
+		min-width: 20rpx;
+		padding: 0 6rpx;
+		border-radius: 40rpx;
+		right: 0;
+		top: 0;
+		transform: translate(88%, -50%);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-shrink: 0;
+		z-index: 4;
+		font-weight: normal !important;
+}
+.tui-badge__dot.data-v-00f3d717 {
+		position: absolute;
+		height: 16rpx;
+		width: 16rpx;
+		border-radius: 50%;
+		right: -10rpx;
+		top: -10rpx;
+		z-index: 4;
+}

@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/change_my",
+    "pages/my/my",
+    "pages/ticket/out_ticket",
+    "pages/ticket/pick_ticket",
+    "pages/ticket/ticket"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/tabbar/home_gray.png",
+        "selectedIconPath": "static/images/tabbar/home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/ticket/ticket",
+        "iconPath": "static/images/tabbar/ticket.png",
+        "text": "车票"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/images/tabbar/me_gray.png",
+        "selectedIconPath": "static/images/tabbar/me_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

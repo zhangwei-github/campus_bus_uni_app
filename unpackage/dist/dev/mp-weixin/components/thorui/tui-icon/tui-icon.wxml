@@ -1,0 +1,1 @@
+<text class="tui-icon data-v-096cf6db" style="{{'color:' + b + ';' + ('font-size:' + c) + ';' + ('font-weight:' + d) + ';' + ('margin:' + e)}}" bindtap="{{f}}">{{a}}</text>

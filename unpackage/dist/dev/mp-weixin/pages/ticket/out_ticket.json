@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "确认订单",
+  "usingComponents": {
+    "tui-icon": "../../components/thorui/tui-icon/tui-icon",
+    "tui-countdown": "../../components/thorui/tui-countdown/tui-countdown",
+    "tui-navigation-bar": "../../components/thorui/tui-navigation-bar/tui-navigation-bar",
+    "tui-divider": "../../components/thorui/tui-divider/tui-divider",
+    "tui-tag": "../../components/thorui/tui-tag/tui-tag",
+    "tui-button": "../../components/thorui/tui-button/tui-button"
+  }
+}

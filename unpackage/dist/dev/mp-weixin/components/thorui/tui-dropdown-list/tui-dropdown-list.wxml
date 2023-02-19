@@ -1,0 +1,1 @@
+<view class="tui-selected-class tui-dropdown-list data-v-98e50597" style="{{'height:' + e}}"><slot name="selectionbox"></slot><view class="{{['tui-dropdown-view', 'data-v-98e50597', a]}}" style="{{'background-color:' + b + ';' + ('height:' + c) + ';' + ('top:' + d)}}"><slot name="dropdownbox"></slot></view></view>

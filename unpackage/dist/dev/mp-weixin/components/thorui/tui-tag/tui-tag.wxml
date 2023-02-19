@@ -1,0 +1,1 @@
+<view hover-class="{{a}}" hover-stay-time="{{150}}" class="{{['tui-tag', 'data-v-5b019941', b, c, d, e]}}" style="{{'transform:' + f + ';' + ('padding:' + g) + ';' + ('margin:' + h) + ';' + ('font-size:' + i) + ';' + ('line-height:' + j)}}" bindtap="{{k}}"><slot></slot></view>

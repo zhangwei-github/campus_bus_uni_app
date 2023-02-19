@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "tui-tabbar": "../../components/thorui/tui-tabbar/tui-tabbar"
+  }
+}

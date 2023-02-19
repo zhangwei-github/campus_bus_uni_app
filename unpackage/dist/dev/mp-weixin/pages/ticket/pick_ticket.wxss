@@ -1,0 +1,150 @@
+
+.content {
+		background-color: #f1f1f1;
+		height: 100%;
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+}
+	/* 卡片相关 */
+.card {
+		background-color: #ffffff;
+		height: 200rpx;
+		padding-bottom: 10rpx;
+}
+.card-flex {
+		display: flex;
+}
+.card-station {
+		margin-left: 40rpx;
+}
+.card-info {
+		margin-left: 20px;
+}
+.card-time-tag {
+}
+.title-outline {
+		display: grid;
+}
+.card-title {
+		margin-top: 20rpx;
+		margin-left: 10rpx;
+		margin-right: 10rpx;
+		text-align: center;
+		font-size: 40rpx;
+		font-weight: 600;
+}
+.card-sub-title {
+		margin-top: 5rpx;
+		margin-left: 20rpx;
+		margin-right: 10rpx;
+		text-align: center;
+		font-size: 30rpx;
+		font-weight: 500;
+}
+.card-icon {
+		margin: 10rpx;
+}
+	
+	/* 选择座位模块 */
+.ticket-info {
+		display: flex;
+		margin-top: 20rpx;
+		margin-bottom: 10rpx;
+		margin-left: 150rpx;
+		text-align:center;
+}
+.ticket-info-font {
+		margin-left: 5rpx;
+		margin-right: 10rpx;
+		padding: 5rpx;
+		font-size: 28rpx;
+		color: #b6b6b6;
+}
+.ticket-info-seat {
+		width: 40rpx;
+		height: 40rpx;
+		padding: 5rpx;
+}
+.seat-panel {
+		border-radius: 20rpx;
+		margin-top: 20rpx;
+		display: flex;
+		width: 100%;
+}
+.bus-info {
+		width: 130rpx;
+		background-color: #ffffff;
+		border: 1rpx solid #acacac;
+		border-radius: 20rpx;
+		margin-left: 225rpx;
+}
+.bus-info-font {
+		margin: 4rpx;
+		padding: 4rpx;
+		font-weight: 500;
+		font-size: 28rpx;
+		color: #b6b6b6;
+}
+.column-container {
+		margin-top: 20rpx;
+		margin-bottom: 20rpx;
+		margin-left: 20rpx;
+		padding-top: 70rpx;
+		padding-bottom: 20rpx;
+		text-align:center;
+		width: 50rpx;
+		border: 5rpx solid #b6b6b6;
+		border-radius: 30rpx;
+		background-color: #b6b6b6;
+}
+.info-font {
+		height: 50rpx;
+		padding: 8rpx;
+		text-align:center;
+		font-size: 28rpx;
+		font-weight: 600;
+		color: #2f2f2f;
+}
+.seat-container {
+		margin-top: 20rpx;
+		margin-bottom: 20rpx;
+		margin-left: 140rpx;
+		padding: 20rpx;
+		padding-left: 10rpx;
+		border-radius: 20rpx;
+		border: 5rpx solid #b6b6b6;
+}
+.seat-row {
+		padding: 8rpx;
+		display: flex;
+}
+.seat-column {
+		display: flex;
+		margin-left:10rpx;
+}
+.blank {
+		width: 40rpx;
+}
+.seat-img {
+		width: 50rpx;
+		height: 50rpx;
+}
+.blank-bar {
+		height: 200rpx;
+}
+	
+	/* 操作面板 */
+.button-bar {
+		position:fixed;
+		bottom: 0rpx;
+		width: 96%;
+		padding: 10rpx;
+}
+.select-panel {
+		background: #fff;
+		height: 200rpx;
+}
+.select-panel-title {
+}

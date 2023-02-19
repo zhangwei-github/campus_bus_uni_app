@@ -1,0 +1,162 @@
+
+.content {
+		background-color: #f1f1f1;
+		height: 100vh;
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+}
+.header-box {
+		width: 100%;
+		position: fixed;
+		top: 10rpx;
+		padding: 0 12rpx;
+		display: flex;
+		align-items: center;
+		height: 32px;
+		transform: translateZ(0);
+		z-index: 99999;
+		box-sizing: border-box;
+}
+.timing-box {
+		display: flex;
+		position: fixed;
+		top: 12rpx;
+		right: 20rpx;
+}
+.time-font {
+		margin: 4rpx;
+		color: #f1f1f1;
+}
+	
+	/* 卡片相关 */
+.card {
+		padding-top: 80rpx;
+		background-color: #5677fc;
+		height: 300rpx;
+		padding-bottom: 10rpx;
+}
+.card-flex {
+		display: flex;
+}
+.card-station {
+		margin-left: 50rpx;
+}
+.card-info {
+		margin-left: 20px;
+		padding-left: 80rpx;
+}
+.card-time-tag {
+		margin-left: 100rpx;
+}
+.title-outline {
+		display: grid;
+}
+.card-title {
+		color: #f1f1f1;
+		margin-top: 20rpx;
+		margin-left: 10rpx;
+		margin-right: 10rpx;
+		text-align: center;
+		font-size: 40rpx;
+		font-weight: 600;
+}
+.card-sub-title {
+		color: #f1f1f1;
+		margin-top: 5rpx;
+		margin-left: 20rpx;
+		margin-right: 10rpx;
+		text-align: center;
+		font-size: 30rpx;
+		font-weight: 500;
+}
+.card-icon {
+		margin: 10rpx;
+}
+	
+	/* tips */
+.tips-panel {
+		margin: 18rpx;
+		padding: 20rpx;
+		border-radius: 20rpx;
+		background-color: #fff;
+}
+.title {
+		margin-bottom: 20rpx;
+		font-size: 40rpx;
+		font-weight: 600;
+}
+.body {
+		margin-bottom: 20rpx;
+}
+.body-font {
+		padding: 10rpx;
+		font-size: 30rpx;
+		color: #767676;
+}
+.body-item {
+		padding: 10rpx;
+		display: flex;
+}
+.person-panel {
+		margin: 18rpx;
+		padding: 20rpx;
+		border-radius: 20rpx;
+		background-color: #fff;
+}
+	/* 操作面板 */
+.button-bar {
+		position:fixed;
+		bottom: 0rpx;
+		width: 96%;
+		padding: 10rpx;
+}
+.tui-notice-board {
+		width: 100%;
+		padding-right: 30rpx;
+		box-sizing: border-box;
+		font-size: 28rpx;
+		height: 60rpx;
+		background: #fff8d5;
+		display: flex;
+		align-items: center;
+		position: fixed;
+		top: 0;
+
+
+
+		z-index: 999;
+}
+.tui-icon-bg {
+		background: #fff8d5;
+		padding-left: 30rpx;
+		position: relative;
+		z-index: 10;
+}
+.tui-icon-class {
+		margin-right: 12rpx;
+}
+.tui-scorll-view {
+		flex: 1;
+		line-height: 1;
+		white-space: nowrap;
+		overflow: hidden;
+		color: #f54f46;
+}
+.tui-notice {
+		-webkit-backface-visibility: hidden;
+		-webkit-perspective: 1000;
+		transform: translate3d(100%, 0, 0);
+}
+.tui-animation {
+		animation: tui-rolling 12s linear infinite;
+}
+@keyframes tui-rolling {
+0% {
+			transform: translate3d(100%, 0, 0);
+}
+100% {
+			transform: translate3d(-170%, 0, 0);
+}
+}

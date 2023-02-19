@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的车票",
+  "usingComponents": {
+    "tui-icon": "../../components/thorui/tui-icon/tui-icon",
+    "tui-navigation-bar": "../../components/thorui/tui-navigation-bar/tui-navigation-bar"
+  }
+}

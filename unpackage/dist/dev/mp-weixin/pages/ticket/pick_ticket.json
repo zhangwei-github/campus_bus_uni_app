@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "选票",
+  "usingComponents": {
+    "tui-divider": "../../components/thorui/tui-divider/tui-divider",
+    "tui-tag": "../../components/thorui/tui-tag/tui-tag",
+    "tui-footer": "../../components/thorui/tui-footer/tui-footer",
+    "tui-button": "../../components/thorui/tui-button/tui-button"
+  }
+}
